@@ -7,7 +7,7 @@
 /* ------------------------------------------------------- */
 /* Header Section */
 .header {
-    padding: 8px 20px;
+    padding: 8px 10px 8px 0;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     background-color: #eff2f5;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 999px;
     width: 230px;   
 }
@@ -49,8 +49,6 @@
     font-size: 15px;
     margin-left: 5px;
 }
-
-
 
 
 
@@ -100,14 +98,6 @@
 
 
 
-
-
-
-
-
-
-
-
 /* Header Right */
 .header-right{
     display: flex;
@@ -117,8 +107,22 @@
 
 .header-right .header-right-info{
     display: flex;
+    align-items: center;
 }
 
+.header-right-info h4{
+    margin: 0 12px 0 5px
+}
+
+.header-right .material-icons{
+    color: black;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #eff2f5;
+    padding: 10px;
+    border-radius: 50%;
+}
 
 .header-right img{
     border-radius: 50%;
@@ -135,6 +139,67 @@
 
 
 
+/* ------------------------------------------------------- */
+/* Main Content */
+
+
+/* Sidebar */
+.sidebar-row{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar-row img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.sidebar-row:hover{
+    background-color: lightgray;
+}
+
+.sidebar-row .material-icons{
+    font-size: xx-large;
+    color: #2e81f4;
+}
+
+.sidebar-row h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+/* End Sidebar */
 
 
 
+
+
+
+
+/* Middle Content */
+
+.story-box img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/* End Middle Content */
+
+
+
+
+
+
+
+
+
+
+
+/* Right Sidebar */
+
+/* End Right Sidebar */
+/* End Main Content */
+/* ------------------------------------------------------- */
